@@ -63,3 +63,11 @@ FILE_PATH = "/home/marques/github/gpt/assets/base_treinamento.pdf"
 Explicações:
 
 * `LOAD_FILE` e `FILE_PATH` são utilizados para carregar um PDF no banco de vetores e o conteúdo deste PDF é utilizado nas consultas caso `USE_CONTEXT` seja `Yes`. Como carregar o conteúdo de um arquivo é algo feito para o treinamento do chat, você pode usar esta função e carregar quantos arquivos quiser, alterando o `FILE_PATH` para cada novo arquivo e reexecutando a aplicação.
+
+# Executando o projeto
+
+Para executar o projeto:
+
+```bash
+python main.py
+```
